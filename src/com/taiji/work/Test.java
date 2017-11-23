@@ -23,21 +23,13 @@ public class Test {
 	List stu7 = CheckStudent(list, p -> p.getScore()==95);
 	List stu8 = CheckStudent(list, p -> p.getScore()==100);
 	
-	System.out.println(stu1);
 	System.out.println("60分学生数:"+stu1.size());
-	System.out.println(stu2);
 	System.out.println("70分学生数:"+stu2.size());
-	System.out.println(stu3);
 	System.out.println("75分学生数:"+stu3.size());
-	System.out.println(stu4);
 	System.out.println("80分学生数:"+stu4.size());
-	System.out.println(stu5);
 	System.out.println("85分学生数:"+stu5.size());
-	System.out.println(stu6);
 	System.out.println("90分学生数:"+stu6.size());
-	System.out.println(stu7);
 	System.out.println("95分学生数:"+stu7.size());
-	System.out.println(stu8);
 	System.out.println("100分学生数:"+stu8.size());
 	}
 	
